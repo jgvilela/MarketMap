@@ -1,0 +1,34 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "market_map",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "market_map (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "market_map (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+            {
+              "name": "Flutter",
+              "request": "launch",
+              "type": "dart",
+              // "args": ["--enable-software-rendering"]
+              // "flutterMode": "profile", //debug //release 
+              "program": "${workspaceFolder}/lib/pages/main.dart"
+            }
+    ]
+}
