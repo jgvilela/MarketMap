@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class ResetPasswordPage extends StatelessWidget {
+  const ResetPasswordPage({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Container();
@@ -8,6 +10,8 @@ class ResetPasswordPage extends StatelessWidget {
 }
 
 class LoginPage extends StatelessWidget {
+  const LoginPage({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -140,12 +144,10 @@ class LoginPage extends StatelessWidget {
                         ),
                         textAlign: TextAlign.left,
                       ),
-                      Container(
-                        child: SizedBox(
-                          child: Image.asset("assets/fb-icon.png"),
-                          height: 28,
-                          width: 28,
-                        ),
+                      SizedBox(
+                        child: Image.asset("assets/fb-icon.png"),
+                        height: 28,
+                        width: 28,
                       )
                     ],
                   ),
@@ -155,7 +157,7 @@ class LoginPage extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-            Container(
+            SizedBox(
               height: 40,
               child: TextButton(
                 child: Text(
