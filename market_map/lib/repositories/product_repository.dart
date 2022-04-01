@@ -1,0 +1,86 @@
+import 'package:market_map/models/product.dart';
+
+class ProductRepository {
+  static List<Product> products = [
+    Product(
+        idProduct: 1,
+        codebar: '1234567890',
+        name: 'Sabão em Pó',
+        details: 'Sabão em Pó da melhor marca',
+        price: 12.90,
+        placementRow: 1,
+        placementColumn: 1),
+    Product(
+        idProduct: 2,
+        codebar: '2345678901',
+        name: 'Refrigerante',
+        details: 'Refrigerante da melhor marca',
+        price: 3.90,
+        placementRow: 1,
+        placementColumn: 2),
+    Product(
+        idProduct: 3,
+        codebar: '2345678901',
+        name: 'Refrigerante',
+        details: 'Refrigerante da melhor marca',
+        price: 3.90,
+        placementRow: 2,
+        placementColumn: 1),
+    Product(
+        idProduct: 4,
+        codebar: '2345678901',
+        name: 'Refrigerante',
+        details: 'Refrigerante da melhor marca',
+        price: 3.90,
+        placementRow: 2,
+        placementColumn: 2),
+    Product(
+        idProduct: 5,
+        codebar: '2345678901',
+        name: 'Refrigerante',
+        details: 'Refrigerante da melhor marca',
+        price: 3.90,
+        placementRow: 3,
+        placementColumn: 1),
+    Product(
+        idProduct: 6,
+        codebar: '2345678901',
+        name: 'Refrigerante',
+        details: 'Refrigerante da melhor marca',
+        price: 3.90,
+        placementRow: 3,
+        placementColumn: 2),
+    Product(
+        idProduct: 7,
+        codebar: '2345678901',
+        name: 'Refrigerante',
+        details: 'Refrigerante da melhor marca',
+        price: 3.90,
+        placementRow: 4,
+        placementColumn: 1),
+    Product(
+        idProduct: 8,
+        codebar: '2345678901',
+        name: 'Refrigerante',
+        details: 'Refrigerante da melhor marca',
+        price: 3.90,
+        placementRow: 4,
+        placementColumn: 2),
+    Product(
+        idProduct: 9,
+        codebar: '2345678901',
+        name: 'Refrigerante',
+        details: 'Refrigerante da melhor marca',
+        price: 3.90,
+        placementRow: 5,
+        placementColumn: 1),
+    Product(
+        idProduct: 10,
+        codebar: '2345678901',
+        name: 'Refrigerante',
+        details: 'Refrigerante da melhor marca',
+        price: 3.90,
+        placementRow: 5,
+        placementColumn: 2),
+  ];
+}
