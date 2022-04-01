@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:market_map/login.main.dart';
+import 'package:market_map/pages/list_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.cyan,
       ),
-      home: LoginPage(),
+      home: ListPage(),
     );
   }
 }
