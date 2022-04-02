@@ -1,11 +1,23 @@
-class Favorite {
-  String cpf;
-  String cnpj;
-  int idProduct;
+import 'package:market_map/models/product.dart';
 
-  Favorite({
-    required this.cpf,
-    required this.cnpj,
-    required this.idProduct,
-  });
+class Favorite extends Product {
+  String cnpj;
+
+  Favorite(
+      {required this.cnpj,
+      required int idProduct,
+      required String codebar,
+      required String name,
+      required String details,
+      required double price,
+      required int placementRow,
+      required int placementColumn})
+      : super(
+            idProduct: idProduct,
+            codebar: codebar,
+            name: name,
+            details: details,
+            price: price,
+            placementRow: placementRow,
+            placementColumn: placementColumn);
 }
